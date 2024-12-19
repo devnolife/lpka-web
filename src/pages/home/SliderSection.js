@@ -80,10 +80,6 @@ const HomeSlider = () => {
               <div className="container">
                 <div className="slider-content">
                   <div className="content-part">
-                    <span className="slider-pretitle wow animate__fadeInUp" data-wow-duration="1s" style={{ fontSize: '24px' }}>Kualitas Kehidupan Sosial yang Hebat</span>
-                    <h2 className="slider-title wow animate__fadeInUp" data-wow-duration="1s" style={{ fontSize: '44px' }}>
-                      LPKA UNISMUH MAKASSAR
-                    </h2>
                   </div>
                 </div>
               </div>
@@ -110,10 +106,6 @@ const HomeSlider = () => {
               <div className="container">
                 <div className="slider-content">
                   <div className="content-part">
-                    <span className="slider-pretitle wow animate__fadeInUp" data-wow-duration="3s" style={{ fontSize: '24px' }}>Kualitas Kehidupan Sosial yang Hebat</span>
-                    <h2 className="slider-title wow animate__fadeInUp" data-wow-duration="1s" style={{ fontSize: '44px' }}>
-                      LPKA-UNISMUH MAKASSAR
-                    </h2>
                   </div>
                 </div>
               </div>

@@ -18,11 +18,6 @@ const HomeMain = () => {
           <HomeSlider />
           <About />
           <Service />
-          {/* <Campus /> */}
-          {/* <Course /> */}
-          {/* <Counter />
-          <Event />
-          <Testimonial /> */}
           <Blog />
           <ScrollToTop
             scrollClassName="home react__up___scroll"
