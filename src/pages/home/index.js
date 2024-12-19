@@ -13,9 +13,7 @@ const HomePage = () => {
         topbarEnable='enable'
       />
       <HomeMain />
-      <Footer
-        footerLogo={footerLogo}
-      />
+      <Footer />
     </>
   );
 }

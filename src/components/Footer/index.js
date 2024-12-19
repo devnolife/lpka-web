@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Logo from '../../assets/images/logos/footer-logo.png';
+import Logo from '../../assets/images/logos/logo-lpka.png';
 
 const Footer = (props) => {
   const { footerLogo, footerClass } = props;
@@ -74,10 +74,10 @@ const Footer = (props) => {
 
         <div className="copyright">
           <div className="container">
-            <div className="react-copy-left">© 2022 <Link to="/">Echooling.</Link> Semua Hak Dilindungi</div>
+            <div className="react-copy-left">© 2025 <Link to="/">LPKA.</Link> Semua Hak Dilindungi</div>
             <div className="react-copy-right">
               <ul className="social-links">
-                <li className="follow">Ikuti kami</li>
+                <li className="follow">Created by devnolife</li>
                 <li><Link to="#"><span aria-hidden="true" className="social_facebook"></span></Link></li>
                 <li><Link to="#"><span aria-hidden="true" className="social_twitter"></span></Link></li>
                 <li><Link to="#"><span aria-hidden="true" className="social_linkedin"></span></Link></li>
