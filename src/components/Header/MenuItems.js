@@ -77,7 +77,7 @@ const MenuItems = (props) => {
 
   return (
     <>
-      <li className={parentMenu === 'home' ? 'has-sub menu-active' : 'has-sub'}>
+      {/* <li className={parentMenu === 'home' ? 'has-sub menu-active' : 'has-sub'}>
         <Link to="/" className={home ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('home'); }}>
           Home
           <span className="arrow "></span>
@@ -93,7 +93,7 @@ const MenuItems = (props) => {
             <Link to="/home-3">Home Three</Link>
           </li>
         </ul>
-      </li>
+      </li> */}
       <li className={parentMenu === 'page' || parentMenu === 'event' ? 'has-sub menu-active' : 'has-sub'}>
         <Link to="#" className={page ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('page'); }}>
           Profil
@@ -106,7 +106,7 @@ const MenuItems = (props) => {
           <li className={location.pathname === "/pimpinan" ? "menu-active" : ""}>
             <Link to="/pimpinan">Pimpinan</Link>
           </li>
-          <li className={postURL[1] === "instructor" && pathLength > 2 ? "menu-active" : ""}>
+          {/* <li className={postURL[1] === "instructor" && pathLength > 2 ? "menu-active" : ""}>
             <Link to="/instructor/1">Profile</Link>
           </li>
           <li className={location.pathname === "/login" ? "menu-active" : ""}>
@@ -128,17 +128,15 @@ const MenuItems = (props) => {
                 <Link to="/event/1">Event Single</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
         </ul>
       </li>
 
       <li className={parentMenu === 'course' ? 'has-sub menu-active' : 'has-sub'}>
-        <span className="arrow "></span>
         <Link to="#" className={course ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('course'); }}>
           Pengumuman
-          <span className="arrow "></span>
         </Link>
-        <ul className={course ? "sub-menu sub-menu-open" : "sub-menu"}>
+        {/* <ul className={course ? "sub-menu sub-menu-open" : "sub-menu"}>
           <li className={location.pathname === "/course" ? "menu-active" : ""}>
             <Link to="/course">Course</Link>
           </li>
@@ -151,7 +149,7 @@ const MenuItems = (props) => {
           <li className={postURL[1] === "course" && pathLength > 2 ? "menu-active" : ""}>
             <Link to="/course/1">Course Single</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
 
       <li className={parentMenu === 'blog' ? 'has-sub menu-active' : 'has-sub'}>
@@ -159,21 +157,21 @@ const MenuItems = (props) => {
           Berita
           <span className="arrow "></span>
         </Link>
-        <ul className={blog ? "sub-menu sub-menu-open" : "sub-menu"}>
+        {/* <ul className={blog ? "sub-menu sub-menu-open" : "sub-menu"}>
           <li className={location.pathname === "/blog" ? "menu-active" : ""}>
             <Link to="/blog">Blog</Link>
           </li>
           <li className={postURL[1] === "blog" && pathLength > 2 ? "menu-active" : ""}>
             <Link to="/blog/1">Blog Single</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className={parentMenu === 'prestasi' ? 'has-sub menu-active' : 'has-sub'}>
         <Link to="#" className={prestasi ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('prestasi'); }}>
           Prestasi
           <span className="arrow "></span>
         </Link>
-        <ul className={prestasi ? "sub-menu sub-menu-open" : "sub-menu"}>
+        {/* <ul className={prestasi ? "sub-menu sub-menu-open" : "sub-menu"}>
           <li className={location.pathname === "/prestasi" ? "menu-active" : ""}>
             <Link to="/prestasi">Prestasi</Link>
           </li>
@@ -183,7 +181,7 @@ const MenuItems = (props) => {
           <li className={postURL[1] === "prestasi" && pathLength > 2 ? "menu-active" : ""}>
             <Link to="/prestasi/1">Prestasi Single</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className={location.pathname === '/komplen' ? 'menu-active' : ''}>
         <Link to="/komplen">Komplen & Saran</Link>
