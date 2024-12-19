@@ -1,0 +1,129 @@
+
+[
+    {
+        "id": 1,
+        "image": "1.png",
+        "name": "Dr.Ir. Nenny, ST.,MT.,IPM",
+        "designation" : "Ketua LPKA",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "douglas@echooling.com"
+    },
+    {
+        "id": 2,
+        "image": "2.png",
+        "name": "Dr. Dian Pramana Putra, S.Pd.,M",
+        "designation" : "Lead Teacher",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "eleanor@echooling.com"
+    },
+    {
+        "id": 3,
+        "image": "3.png",
+        "name": "Magnus Lee",
+        "designation" : "Administration",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "magnus@echooling.com"
+    },
+    {
+        "id": 4,
+        "image": "4.png",
+        "name": "Hanson Deck",
+        "designation" : "Professor",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "hanson@echooling.com"
+    },
+    {
+        "id": 5,
+        "image": "5.png",
+        "name": "Becky Curry",
+        "designation" : "Teacher",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "becky@echooling.com"
+    },
+    {
+        "id": 6,
+        "image": "6.jpg",
+        "name": "Giles Posture",
+        "designation" : "Assistant",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "giles@echooling.com"
+    },
+    {
+        "id": 7,
+        "image": "7.jpg",
+        "name": "Jackson Pot",
+        "designation" : "Special Assistant",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "jakson@echooling.com"
+    },
+    {
+        "id": 8,
+        "image": "8.jpg",
+        "name": "Jessica Lyphe",
+        "designation" : "Teacher",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "jessica@echooling.com"
+    },
+    {
+        "id": 9,
+        "image": "9.jpg",
+        "name": "Jason Response",
+        "designation" : "Education Assistant",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "jason@echooling.com"
+    },
+    {
+        "id": 10,
+        "image": "10.jpg",
+        "name": "Jonquil Von",
+        "designation" : "Teaching Assistant",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "janquil@echooling.com"
+    },
+    {
+        "id": 11,
+        "image": "11.jpg",
+        "name": "Piff Jenkins",
+        "designation" : "Teacher",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "piff@echooling.com"
+    },
+    {
+        "id": 12,
+        "image": "12.jpg",
+        "name": "Brian Cumin",
+        "designation" : "Lead Teacher",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "brian@echooling.com"
+    },
+    {
+        "id": 13,
+        "image": "13.jpg",
+        "name": "Alan Fresco",
+        "designation" : "Teacher",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "alan@echooling.com"
+    },
+    {
+        "id": 14,
+        "image": "14.jpg",
+        "name": "Steve Bros",
+        "designation" : "Teacher",
+        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
+        "phone": "+(088) 223 478 365",
+        "email": "steve@echooling.com"
+    }
+]
