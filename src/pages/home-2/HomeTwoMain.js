@@ -3,7 +3,7 @@ import Blog from './BlogSection';
 import About from './AboutSection';
 import Topics from './TopicsSection';
 import HomeBanner from './BannerSection';
-import Instructor from './InstructorSection';
+import Instructor from '../instructor/InstructorSection';
 import FaqPart from './FaqSection';
 import Course from './CourseSection';
 import Testimonial from './TestimonialSection';

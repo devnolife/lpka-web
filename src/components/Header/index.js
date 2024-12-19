@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import MenuItems from './MenuItems';
 
 import lpkaLogo from '../../assets/images/logos/logo-lpka.png'
-import stickyLogo from '../../assets/images/logos/logo.png';
+import stickyLogo from '../../assets/images/logos/logo-lpka.png';
 
 const Header = (props) => {
   const { topbarEnable, menuCategoryEnable, headerClass, parentMenu, headerNormalLogo, headerStickyLogo } = props;
@@ -74,7 +74,7 @@ const Header = (props) => {
                       {
                         isVisible ?
                           <Link to="/" className="logo-text">
-                            <img src={headerStickyLogo ? headerStickyLogo : stickyLogo} alt="" />
+                            <img src={headerStickyLogo ? headerStickyLogo : stickyLogo} alt="" width={250} />
                           </Link> :
                           <Link to="/" className="logo-text">
                             <img src={headerNormalLogo ? headerNormalLogo : lpkaLogo} alt="" width={250} />

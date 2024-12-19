@@ -1,11 +1,9 @@
 import React from 'react';
 import Header from '../../components/Header';
-import FooterTwo from '../../components/Footer/FooterTwo';
-import Breadcrumb from '../../components/Breadcrumb';
+import Footer from '../../components/Footer/index';
 import InstructorMain from './InstructorMain';
 import ScrollToTop from '../../components/ScrollTop';
-
-import Logo from '../../assets/images/logos/logo2.png';
+import InstructorSection from './InstructorSection';
 
 const Instructor = () => {
   return (
@@ -13,26 +11,15 @@ const Instructor = () => {
       <Header
         parentMenu='page'
         menuCategoryEnable='enable'
-        headerNormalLogo={Logo}
-        headerStickyLogo={Logo}
       />
-
       <div class="react-wrapper">
         <div class="react-wrapper-inner">
-          <Breadcrumb
-            pageTitle="Instructor"
-          />
-
           <InstructorMain />
-
-          {/* scrolltop-start */}
+          <InstructorSection />
           <ScrollToTop />
-          {/* scrolltop-end */}
         </div>
       </div>
-
-      <FooterTwo />
-
+      <Footer />
     </>
   );
 }

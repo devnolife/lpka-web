@@ -56,10 +56,10 @@ $bodyfont: 'Source Sans Pro', sans-serif;
 $blog-font: 'Source Sans Pro', sans-serif;
 $transition: all 0.5s ease 0s;
 $bodyColor: #53545b;
-$titleColor: #00306E;
+$titleColor: #2666A4;
 $primaryColor: #3270FC;
-$secondaryColor: #00306E;
-$titleColor6: #00306e;
+$secondaryColor: #2666A4;
+$titleColor6: #2666A4;
 $hoverColor: #f84e77;
 $whiteColor: #ffffff;
 $black-color: #000;
@@ -620,14 +620,14 @@ ul {
 
     .react-menus li {
         a {
-            color: #00306e;
+            color: #2666A4;
 
             &:hover {
-                color: #D2093C !important;
+                color: #FDD102 !important;
             }
         }
         &.menu-active > a {
-            color: #D2093C !important;
+            color: #FDD102 !important;
         }
     }
 
@@ -1146,7 +1146,7 @@ ul {
     }
 
     .topbar-area.style1 {
-        background: #00306e;
+        background: #2666A4;
         color: #fff;
         padding: 5px 0;
         font-size: 14px;
@@ -6135,7 +6135,7 @@ ul {
             margin-bottom: 22px;
             font-weight: 400;
             line-height: 32px;
-            background: #D2093C;
+            background: #FDD102;
         }
 
         .slider-desc {
@@ -6151,16 +6151,16 @@ ul {
                 color: $whiteColor;
 
                 &:hover {
-                    background: #D2093C;
+                    background: #FDD102;
                     color: $whiteColor;
-                    border-color: #D2093C;
+                    border-color: #FDD102;
                 }
             }
         }
     }
 
     .event__video-btn--play-btn {
-        color: #00306e;
+        color: #2666A4;
     }
 
     .owl-nav {
@@ -7964,7 +7964,7 @@ ul {
 
                     svg {
                         width: 18px;
-                        color: #00306E;
+                        color: #2666A4;
                     }
 
                     &:hover {
@@ -8027,7 +8027,7 @@ ul {
         .hero3__paragraph {
             font-size: 16px;
             line-height: 20.11px;
-            color: #00306E;
+            color: #2666A4;
 
             a {
                 color: $primaryColor;
@@ -8347,7 +8347,7 @@ ul {
     h6 {
         font-size: 16px;
         line-height: 20px;
-        color: #D2093C;
+        color: #FDD102;
         font-weight: 600;
         margin: 0 0 12px;
     }
@@ -8448,7 +8448,7 @@ ul {
         line-height: 54px;
 
         em {
-            color: #D2093C;
+            color: #FDD102;
             font-style: normal;
         }
     }
@@ -8477,7 +8477,7 @@ ul {
             color: #777;
 
             a {
-                color: #D2093C;
+                color: #FDD102;
                 text-decoration: underline !important;
                 font-weight: 700;
 
@@ -8503,7 +8503,7 @@ ul {
                     border-radius: 6px;
                     border: 2px solid rgba(0, 48, 110, 0.10);
                     padding: 14px 35px 14px 35px;
-                    color: #00306E;
+                    color: #2666A4;
                     display: inline-block;
                     line-height: 20px;
 
@@ -8512,9 +8512,9 @@ ul {
                     }
 
                     &:hover {
-                        background: #D2093C;
+                        background: #FDD102;
                         color: $whiteColor;
-                        border-color: #D2093C;
+                        border-color: #FDD102;
                     }
                 }
 
@@ -8534,11 +8534,11 @@ ul {
 
                     a {
                         font-size: 18px;
-                        color: #00306e;
+                        color: #2666A4;
                         font-weight: 700;
 
                         &:hover {
-                            color: #D2093C;
+                            color: #FDD102;
                         }
                     }
                 }
@@ -8611,7 +8611,7 @@ ul {
             border-radius: 6px;
             border: 2px solid rgba(0, 48, 110, 0.1);
             padding: 12px 35px 12px 35px;
-            color: #00306E;
+            color: #2666A4;
             display: inline-block;
             margin-top: 30px;
             line-height: 20px;
@@ -8658,7 +8658,7 @@ ul {
             h6 {
                 font-size: 16px;
                 line-height: 20px;
-                color: #D2093C;
+                color: #FDD102;
                 font-weight: 600;
                 margin: 0 0 12px;
             }
@@ -8850,7 +8850,7 @@ ul {
             border-radius: 6px;
             border: 2px solid rgba(0, 48, 110, 0.1);
             padding: 12px 35px 12px 35px;
-            color: #00306E;
+            color: #2666A4;
             display: inline-block;
             margin-top: 30px;
             line-height: 20px;
@@ -8888,14 +8888,14 @@ ul {
 
             h5 {
                 margin: 0;
-                color: #D2093C;
+                color: #FDD102;
                 font-size: 20px;
                 font-weight: 600;
             }
 
             h3 {
                 margin: 10px 0 18px;
-                color: #D2093C;
+                color: #FDD102;
                 font-size: 20px;
                 font-weight: 600;
 
@@ -9030,7 +9030,7 @@ ul {
         h6 {
             font-size: 16px;
             line-height: 20px;
-            color: #D2093C;
+            color: #FDD102;
             font-weight: 600;
             margin: 0;
         }
@@ -9047,7 +9047,7 @@ ul {
             border-radius: 6px;
             border: 2px solid rgba(0, 48, 110, 0.1);
             padding: 12px 35px 12px 35px;
-            color: #00306E;
+            color: #2666A4;
             display: inline-block;
             margin-top: 10px;
             line-height: 20px;
@@ -9125,7 +9125,7 @@ ul {
             h6 {
                 font-size: 16px;
                 line-height: 20px;
-                color: #D2093C;
+                color: #FDD102;
                 font-weight: 600;
                 margin: 0;
             }
@@ -9163,8 +9163,8 @@ ul {
         background-size: cover;
         border: 5px solid #fff;
         border-radius: 50%;
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
         box-shadow: 0px 10px 30px rgba(15, 18, 22, 0.1);
     }
 
@@ -9538,7 +9538,7 @@ ul {
         h6 {
             font-size: 16px;
             line-height: 20px;
-            color: #D2093C;
+            color: #FDD102;
             font-weight: 600;
             margin: 0;
         }
@@ -9691,12 +9691,12 @@ ul {
         background: #fff !important;
 
         .react__title__section h2 {
-            color: #00306e;
+            color: #2666A4;
         }
 
         .client-slider .slick-slider .slick-arrow:hover {
-            background: #d2093c;
-            border-color: #d2093c;
+            background: #FDD102;
+            border-color: #FDD102;
             ;
         }
     }
@@ -9712,19 +9712,19 @@ ul {
 
         .react__title__section {
             h2 {
-                color: #00306e;
+                color: #2666A4;
             }
         }
 
         .b_date {
-            background: #D2093C;
+            background: #FDD102;
         }
 
         .blog__card--title a {
-            color: #00306e;
+            color: #2666A4;
 
             &:hover {
-                color: #D2093C;
+                color: #FDD102;
             }
         }
 
@@ -9748,7 +9748,7 @@ ul {
         h6 {
             font-size: 16px;
             line-height: 20px;
-            color: #D2093C;
+            color: #FDD102;
             font-weight: 600;
             margin: 0;
         }
@@ -9799,7 +9799,7 @@ ul {
     .blog__card--date {
         font-size: 16px;
         font-weight: 400;
-        color: #D2093C;
+        color: #FDD102;
     }
 
     .blog__card--title {
@@ -9962,11 +9962,11 @@ ul {
 
                     svg {
                         width: 18px;
-                        color: #00306e;
+                        color: #2666A4;
                     }
 
                     &:hover {
-                        background: #00306e;
+                        background: #2666A4;
                         color: $whiteColor;
 
                         svg {
@@ -9985,7 +9985,7 @@ ul {
         border-radius: 6px;
         border: 2px solid rgba(0, 48, 110, 0.10);
         padding: 12px 35px 12px 35px;
-        color: #00306E;
+        color: #2666A4;
         display: inline-block;
         margin-top: 60px;
         line-height: 20px;
@@ -9995,9 +9995,9 @@ ul {
         }
 
         &:hover {
-            background: #D2093C;
+            background: #FDD102;
             color: $whiteColor;
-            border-color: #D2093C;
+            border-color: #FDD102;
         }
     }
 }
@@ -10026,7 +10026,7 @@ ul {
                 li {
                     font-size: 16px;
                     line-height: 22px;
-                    color: #00306E;
+                    color: #2666A4;
                     position: relative;
                     padding-left: 16px;
                     margin-right: 30px;
@@ -10043,10 +10043,10 @@ ul {
                     }
 
                     &:first-child {
-                        color: #D2093C;
+                        color: #FDD102;
 
                         &:before {
-                            background: #D2093C;
+                            background: #FDD102;
                         }
                     }
 
@@ -10069,7 +10069,7 @@ ul {
                 color: $titleColor;
 
                 &:hover {
-                    color: #D2093C;
+                    color: #FDD102;
                 }
             }
         }
@@ -10097,7 +10097,7 @@ ul {
 
             .react__user {
                 font-size: 20px;
-                color: #D2093C;
+                color: #FDD102;
                 font-weight: 700;
             }
         }
@@ -10110,7 +10110,7 @@ ul {
         border-radius: 6px;
         border: 2px solid rgba(0, 48, 110, 0.10);
         padding: 12px 35px 12px 35px;
-        color: #00306E;
+        color: #2666A4;
         display: inline-block;
         margin-top: 60px;
         line-height: 20px;
@@ -10120,9 +10120,9 @@ ul {
         }
 
         &:hover {
-            background: #D2093C;
+            background: #FDD102;
             color: $whiteColor;
-            border-color: #D2093C;
+            border-color: #FDD102;
         }
     }
 }
@@ -10134,7 +10134,7 @@ ul {
 
 .count__area {
     .count__width {
-        background: #D2093C;
+        background: #FDD102;
         padding-top: 50px;
         padding-bottom: 50px;
 
@@ -10204,13 +10204,13 @@ ul {
                 font-weight: 700;
                 font-style: normal;
                 display: block;
-                color: #D2093C;
+                color: #FDD102;
             }
         }
 
         .event_time {
             font-size: 16px;
-            color: #D2093C;
+            color: #FDD102;
             line-height: 22px;
             margin: 28px 0 4px;
         }
@@ -10251,7 +10251,7 @@ ul {
             border-radius: 6px;
             border: 2px solid rgba(0, 48, 110, 0.10);
             padding: 8px 35px 7px 35px;
-            color: #00306E;
+            color: #2666A4;
             display: inline-block;
             line-height: 20px;
             width: 100%;
@@ -10262,9 +10262,9 @@ ul {
             }
 
             &:hover {
-                background: #D2093C;
+                background: #FDD102;
                 color: $whiteColor;
-                border-color: #D2093C;
+                border-color: #FDD102;
             }
         }
     }
@@ -10286,7 +10286,7 @@ ul {
 
             &.slick-active {
                 button {
-                    background: #D2093C;
+                    background: #FDD102;
                 }
             }
         }
@@ -10838,7 +10838,7 @@ body.courses-grid-page {
         font-weight: 700;
 
         a {
-            color: #00306e;
+            color: #2666A4;
 
             &:hover {
                 color: #3270fc;
@@ -10849,7 +10849,7 @@ body.courses-grid-page {
     .react-course-filter .single-studies .inner-course .case-img a {
         left: 22px;
         right: auto;
-        background: #d2093c;
+        background: #FDD102;
     }
 
     .react-course-filter .single-studies .inner-course .case-content .react-ratings {
@@ -10875,7 +10875,7 @@ body.courses-grid-page {
     }
 
     .react-course-filter .single-studies .inner-course .case-content .react-ratings li.price {
-        color: #00306e;
+        color: #2666A4;
         font-size: 14px;
         font-weight: 700;
     }
@@ -11237,7 +11237,7 @@ body.courses-grid-page {
         em {
             display: block;
             font-size: 16px;
-            color: #D2093C;
+            color: #FDD102;
             font-style: normal;
         }
     }
@@ -12866,7 +12866,7 @@ body.course-single {
 
                     &:nth-child(3) {
                         font-size: 13px;
-                        color: #D2093C;
+                        color: #FDD102;
                         background: rgba(210, 9, 60, 0.06);
                         border-radius: 4px;
                         margin-left: 10px;
@@ -13502,7 +13502,7 @@ body.event-page {
 
             svg {
                 width: 18px;
-                color: #00306E;
+                color: #2666A4;
             }
 
             &:hover {
@@ -14091,16 +14091,16 @@ body.event-page {
         .footer-top .footer-menu li a:hover,
         .footer-top .footer-widget .footer-address li a:hover,
         .copyright .react-copy-left a {
-            color: #D2093C
+            color: #FDD102
         }
 
         .footer-top .footer-menu li a:after {
-            background: #D2093C
+            background: #FDD102
         }
 
         .social-links li a:hover {
-            background: #d2093c;
-            border-color: #d2093c;
+            background: #FDD102;
+            border-color: #FDD102;
         }
     }
 }
@@ -14155,7 +14155,7 @@ body.event-page {
   font-size: 48px;
   line-height: 60px;
   margin-bottom: 20px;
-  color: #00306E;
+  color: #2666A4;
   font-weight: 600;
 }
 .page-error .react-sideabr {
@@ -14237,7 +14237,7 @@ body.event-page {
   margin: 0 auto;
   border-radius: 100%;
   border: 5px solid #ffffff;
-  background: #d2093c;
+  background: #FDD102;
   box-shadow: 0 0 52px rgba(0, 0, 0, 0.3);
   display: inline-block;
   margin: 0 12px;
@@ -14443,7 +14443,7 @@ body.event-page {
     border-radius: 3px;
 
     &.home {
-        background: #d2093c;
+        background: #FDD102;
     }
 
     span {
