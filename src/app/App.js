@@ -5,8 +5,6 @@ import Preloader from "../components/Preloader";
 //Custom Components
 
 import Home from '../pages/home';
-import HomeTwo from '../pages/home-2';
-import HomeThree from '../pages/home-3';
 import About from '../pages/visi-misi';
 import Course from '../pages/course';
 import CourseList from '../pages/course/course-list';
@@ -42,8 +40,6 @@ const App = () => {
         <LoadTop />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          {/* <Route path="/home-2" element={<HomeTwo />} />
-          <Route path="/home-3" element={<HomeThree />} /> */}
           <Route path="/visi-misi" element={<About />} />
           <Route path="/course" exact element={<Course />} />
           <Route path="/course-list" exact element={<CourseList />} />
