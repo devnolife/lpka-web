@@ -47,6 +47,17 @@ const ContactForm = (props) => {
                 <input id="phone" type="text" name="user_phone" required placeholder="Telepon" />
               </div>
             </div>
+            <div className="row align-items-center back-vertical-middle shorting__course mb-50">
+              <div className="col-lg-6 pdl-5">
+                <select className="from-control" >
+                  <option value="Marketing">Plihan</option>
+                  <option value="Education">Education</option>
+                  <option value="Marketing">Marketing</option>
+                  <option value="Development">Development</option>
+                  <option value="UI/UX Design">UI/UX Design</option>
+                </select>
+              </div>
+            </div>
             <div className="col-lg-12">
               <div className="back-textarea">
                 <textarea id="message" name="user_message" required placeholder="Pesan"></textarea>

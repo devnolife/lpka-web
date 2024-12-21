@@ -15,30 +15,30 @@ const Service = () => {
   return (
     <div className="react_popular_topics pt---100 pb---70">
       <div className="container">
-        <SectionTitle Title="Layanan Devisi Pengambangan" />
+        <SectionTitle Title="Layanan Devisi LPKA" />
         <div className="row">
           <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.3s">
             <SingleService
               itemImg={prestasi}
-              title="Prestasi & Kreativitas Mahasiswa"
+              title="Devisi Prestasi & Kreativitas Mahasiswa"
             />
           </div>
           <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.5s">
             <SingleService
               itemImg={serviceImg2}
-              title="Kewirausahaan & Kesejahteraan Mahasiswa"
+              title="Devisi Kewirausahaan & Kesejahteraan Mahasiswa"
             />
           </div>
           <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.7s">
             <SingleService
               itemImg={serviceImg3}
-              title="Bakat Minat & Kelembagaan Mahasiswa"
+              title="Devisi Bakat Minat & Kelembagaan Mahasiswa"
             />
           </div>
           <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.9s">
             <SingleService
               itemImg={serviceImg4}
-              title="Karir Mahasiswa dan Alumni"
+              title="Devisi Karir Mahasiswa dan Alumni"
             />
           </div>
         </div>
