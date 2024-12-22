@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 import DevisiDetailMain from './DevisiDetailMain';
 import Breadcrumb from '../../components/Breadcrumb/BlogBreadcrumbs';
 import ScrollToTop from '../../components/ScrollTop';
-import data from './data.json';
+import data from '../../data/Devisi.json';
 
 import Logo from '../../assets/images/logos/logo-lpka.png';
 

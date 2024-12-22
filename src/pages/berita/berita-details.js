@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 import BlogDetailsMain from './BeritaDetailsMain';
 import Breadcrumb from '../../components/Breadcrumb/BlogBreadcrumbs';
 import ScrollToTop from '../../components/ScrollTop';
-import posts from '../../data/Posts.json';
+import posts from '../../data/Berita.json';
 
 import Logo from '../../assets/images/logos/logo-lpka.png';
 

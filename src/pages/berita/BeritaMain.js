@@ -1,7 +1,52 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import posts from '../../data/Posts.json';
+const posts = [
+  {
+    "id": 1,
+    "image": "blog-1.jpeg",
+    "category": "Pendidikan",
+    "title": "PPK Ormawa LKIM-PENA Unismuh Gandeng Pemdes Tanakeke Tanam 1.000 Mangrove untuk Lawan Abrasi dan Banjir Rob",
+    "publishedDate": "22 July 2024",
+    "totalView": "77",
+    "description": "Mengapa saya mengatakan sobat lama itu sangat bagus di flat saya, seperti pembohong besar, hanya satu pound, apa sampah yang bagus.",
+    "author": "John Doe",
+    "authorImg": "author.png"
+  },
+  {
+    "id": 2,
+    "image": "blog-2.jpg",
+    "category": "Pendidikan",
+    "title": "LKIM-PENA Usulkan 6 Program Desa Maritim Unggul Tompotanah kepada Pemkab Takalar",
+    "publishedDate": "22 July 2024",
+    "totalView": "77",
+    "description": "Mengapa saya mengatakan sobat lama itu sangat bagus di flat saya, seperti pembohong besar, hanya satu pound, apa sampah yang bagus.",
+    "author": "Jane Smith",
+    "authorImg": "author2.png"
+  },
+  {
+    "id": 3,
+    "image": "blog-3.jpeg",
+    "category": "Pendidikan",
+    "title": "LPKA UNISMUH MAKASSAR MELAKSANAKAN BIMTEK PPK ORMAWA 2024",
+    "publishedDate": "08 March 2024",
+    "totalView": "77",
+    "description": "Mengapa saya mengatakan sobat lama itu sangat bagus di flat saya, seperti pembohong besar, hanya satu pound, apa sampah yang bagus.",
+    "author": "Alice Johnson",
+    "authorImg": "author3.png"
+  },
+  {
+    "id": 4,
+    "image": "blog-4.jpeg",
+    "category": "Pendidikan",
+    "title": "Tapak Suci Unismuh Makassar Raih Juara Umum II di Kejuaraan Pencak Silat Makassar Championship",
+    "publishedDate": "06 January 2024",
+    "totalView": "77",
+    "description": "Mengapa saya mengatakan sobat lama itu sangat bagus di flat saya, seperti pembohong besar, hanya satu pound, apa sampah yang bagus.",
+    "author": "Bob Brown",
+    "authorImg": "author4.png"
+  }
+]
 
 const BeritaMain = () => {
 
@@ -49,11 +94,9 @@ const BeritaMain = () => {
                     </div>
                   </div>
                 )
-              }).slice(4, 6)}
+              }).slice(0, 3)}
 
-              <blockquote>Saya berpikir saya kembali, Anda ingin perang atau Anda hanya ingin memberi saya senjata, semuanya ada harganya <em> Judith Cooper</em></blockquote>
-
-              {posts.map((data, index) => {
+              {/* {posts.map((data, index) => {
                 return (
                   <div key={index} className="single-blog">
                     <div className="inner-blog">
@@ -91,11 +134,11 @@ const BeritaMain = () => {
                     </div>
                   </div>
                 )
-              }).slice(6, 7)}
+              }).slice(0, 3)} */}
 
               <blockquote className="block__link_q">Mereka adalah penyedia dan mereka adalah pemimpin dan periode ini dalam sejarah akan menyoroti.</blockquote>
 
-              {posts.map((data, index) => {
+              {/* {posts.map((data, index) => {
                 return (
                   <div key={index} className="single-blog">
                     <div className="inner-blog">
@@ -133,7 +176,7 @@ const BeritaMain = () => {
                     </div>
                   </div>
                 )
-              }).slice(7, 8)}
+              }).slice(0, 3)} */}
             </div>
 
             <ul className="back-pagination">
@@ -170,7 +213,7 @@ const BeritaMain = () => {
                         </div>
                       </li>
                     )
-                  }).slice(5, 8)}
+                  }).slice(0, 3)}
                 </ul>
               </div>
               <div className="widget widget-tags">

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Devisi Prestasi & Kreativitas Mahasiswa",
+    "image": "devisi1.jpg",
+    "bannerImg": "post-banner1.jpg",
+    "category": "Layanan",
+    "author": "Author 1",
+    "konteks": "This is the context for Devisi 1."
+  },
+  {
+    "id": 2,
+    "title": "Devisi Kewirausahaan & Kesejahteraan Mahasiswa",
+    "image": "devisi2.jpg",
+    "bannerImg": "post-banner1.jpg",
+    "category": "Layanan",
+    "author": "Author 2",
+    "konteks": "This is the context for Devisi 2."
+  },
+  {
+    "id": 3,
+    "title": "Devisi Bakat Minat & Kelembagaan Mahasiswa",
+    "image": "post-banner1.jpg",
+    "bannerImg": "post-banner1.jpg",
+    "category": "Layanan",
+    "author": "Author 3",
+    "konteks": "This is the context for Devisi 3."
+  },
+   {
+    "id": 4,
+    "title": "Devisi Karir Mahasiswa & Alumni",
+    "image": "post-banner1.jpg",
+    "bannerImg": "karir.png",
+    "category": "Layanan",
+    "author": "Author 3",
+    "konteks": "This is the context for Devisi 3."
+  }
+]

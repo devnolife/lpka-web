@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import posts from '../../data/Posts.json';
+import posts from '../../data/Berita.json';
 
 import userImg from '../../assets/images/course-single/user.jpg'
 import userImg2 from '../../assets/images/course-single/user2.jpg'
