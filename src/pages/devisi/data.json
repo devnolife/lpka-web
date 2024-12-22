@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "image": "1.jpg",
+        "bannerImg": "post-banner1.jpg",
+        "category": "Pendidikan",
+        "title": "Devisi Prestasi & Kreativitas Mahasiswa",
+      "konteks": "Meningkatkan prestasi dan kreativitas mahasiswa melalui berbagai kegiatan dan kompetisi."
+    },
+    {
+        "id": 2,
+        "image": "2.jpg",
+        "bannerImg": "post-banner2.jpg",
+        "category": "Pendidikan",
+        "title": "Devisi Kewirausahaan & Kesejahteraan Mahasiswa",
+                "konteks": "Mendorong kewirausahaan dan kesejahteraan mahasiswa melalui berbagai inisiatif dan program."
+    },
+    {
+        "id": 3,
+        "image": "3.jpg",
+        "bannerImg": "post-banner1.jpg",
+        "category": "Pendidikan",
+        "title": "Devisi Bakat Minat & Kelembagaan Mahasiswa ",
+        "konteks": "Mendukung pengembangan bakat dan minat mahasiswa serta kelembagaan mahasiswa."
+
+    },
+    {
+        "id": 4,
+        "image": "1.jpg",
+        "bannerImg": "karir.jpg",
+        "category": "Pendidikan",
+        "title": " Devisi Karir Mahasiswa dan Alumni",
+        "konteks": "Mengembangkan karir mahasiswa dan alumni melalui berbagai program dan pelatihan."
+        
+    }
+]
