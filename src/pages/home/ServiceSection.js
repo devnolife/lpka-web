@@ -4,11 +4,11 @@ import SectionTitle from '../../components/SectionTitle'
 
 import SingleService from '../../components/Service/SingleService';
 
-import serviceImg1 from '../../assets/images/service/1.png'
-import serviceImg2 from '../../assets/images/service/2.png'
-import serviceImg3 from '../../assets/images/service/3.png'
-import serviceImg4 from '../../assets/images/service/4.png'
+
 import prestasi from '../../assets/images/service/prestasi.png'
+import bakatminat from '../../assets/images/service/bakatminat.png'
+import karir from '../../assets/images/service/karir.png'
+import wirausaha from '../../assets/images/service/wirausaha.png'
 
 const Service = () => {
 
@@ -19,25 +19,29 @@ const Service = () => {
         <div className="row">
           <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.3s">
             <SingleService
+              id="1"
               itemImg={prestasi}
               title="Devisi Prestasi & Kreativitas Mahasiswa"
             />
           </div>
           <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.5s">
             <SingleService
-              itemImg={serviceImg2}
+              id="2"
+              itemImg={wirausaha}
               title="Devisi Kewirausahaan & Kesejahteraan Mahasiswa"
             />
           </div>
           <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.7s">
             <SingleService
-              itemImg={serviceImg3}
+              id="3"
+              itemImg={bakatminat}
               title="Devisi Bakat Minat & Kelembagaan Mahasiswa"
             />
           </div>
           <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.9s">
             <SingleService
-              itemImg={serviceImg4}
+              id="4"
+              itemImg={karir}
               title="Devisi Karir Mahasiswa dan Alumni"
             />
           </div>

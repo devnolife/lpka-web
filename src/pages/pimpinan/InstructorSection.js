@@ -8,25 +8,25 @@ const instructors =
       "id": 9,
       "image": "9.png",
       "name": "Syamsul SE.M.Si.",
-      "designation": "Kordinator Devisi",
+      "designation": "Staff",
     },
     {
       "id": 10,
       "image": "10.png",
       "name": "Reski Dian Utami, S.Ak",
-      "designation": "Kordinator Devisi",
+      "designation": "Staff",
     },
     {
       "id": 11,
       "image": "11.png",
       "name": "Hasriati, S. SOS",
-      "designation": "Kordinator Devisi",
+      "designation": "Staff",
     },
     {
       "id": 12,
       "image": "12.png",
       "name": "Jumria K, S. IP",
-      "designation": "Kordinator Devisi",
+      "designation": "Staff",
     },
     {
       "id": 13,
@@ -48,7 +48,7 @@ const InstructorSection = () => {
           <div className="col-lg-6 col-md-4 col-sm-6">
             <div className="instructor__content instructor__content-one">
               <div className="instructors_lefts">
-                <h2 className="wow animate__fadeInUp" data-wow-duration="0.3s">Staf Lembaga Pengembangan <br /> Kemahasiswaan dan Alumni</h2>
+                <h2 className="wow animate__fadeInUp" data-wow-duration="0.3s">Staff Lembaga Pengembangan <br /> Kemahasiswaan dan Alumni</h2>
               </div>
             </div>
           </div>

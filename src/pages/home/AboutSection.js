@@ -23,9 +23,9 @@ const About = () => {
               <p className="about__paragraph2 wow animate__fadeInUp" data-wow-duration="0.7s"> Punya pertanyaan?  <Link to="#"> Dapatkan Panduan Gratis </Link></p>
               <p className="wow animate__fadeInUp" data-wow-duration="0.6s">LPKA diharapkan tidak hanya menjalankan fungsi pelayanan, tetapi juga pengembangan program.</p>
               <ul className="wow animate__fadeInUp" data-wow-duration="0.9s">
-                <li><Link to="/about" className="more-about"> Baca Selengkapnya <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link></li>
+                <li><Link to="/visi-misi" className="more-about"> Baca Selengkapnya <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link></li>
                 <li className="last-li">
-                  <Link to="mailto:support@react.com">lpka@unismuh.ac.id</Link>
+                  <Link to="/">lpka@unismuh.ac.id</Link>
                 </li>
               </ul>
             </div>

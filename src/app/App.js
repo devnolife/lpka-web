@@ -15,6 +15,7 @@ import Komplen from '../pages/komplen';
 import Error from '../pages/404';
 import LoadTop from '../components/ScrollTop/LoadTop'
 import Pengumuman from "../pages/pengumuman";
+import Devisi from '../pages/devisi'
 
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/visi-misi" element={<About />} />
+          <Route path="/devisi/:id" element={<Devisi />} />
           <Route path="/berita" exact element={<Berita />} />
           <Route path="/berita/:id" element={<BlogDetails />} />
           <Route path="/event" exact element={<Event />} />

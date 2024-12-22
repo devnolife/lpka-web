@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-import aboutImg from '../../assets/images/about/ab.png'
+import aboutImg from '../../assets/images/about/ab4.jpg'
 import shapeImg from '../../assets/images/about/badge.png'
 
 const VisiMisi = () => {
@@ -13,7 +12,6 @@ const VisiMisi = () => {
           <div className="col-lg-6">
             <div className="about__image wow animate__fadeInUp" data-wow-duration="0.3s">
               <img src={aboutImg} alt="About" />
-              <img className="react__shape__ab" src={shapeImg} alt="Shape Image" />
             </div>
           </div>
           <div className="col-lg-6">

@@ -9765,9 +9765,12 @@ ul {
         overflow: hidden;
     }
 
-    .blog__thumb--image img {
-        border-radius: 6px 6px 0 0;
-        transition: $transition;
+
+   .blog__thumb--image img {
+      width: 100%;
+      height: 200px; /* Tetapkan tinggi tetap untuk gambar */
+      object-fit: cover; /* Potong gambar jika tidak sesuai rasio */
+      object-position: center; /* Pusatkan gambar */
     }
 
     .blog__thumb--image img:hover {

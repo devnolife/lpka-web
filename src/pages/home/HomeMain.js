@@ -3,11 +3,6 @@ import Blog from './BlogSection';
 import About from './AboutSection';
 import Service from './ServiceSection';
 import HomeSlider from './SliderSection';
-import Campus from './CampusSection';
-import Course from './CourseSection';
-import Event from './EventSection';
-import Counter from './CounterSection';
-import Testimonial from './TestimonialSection';
 import ScrollToTop from '../../components/ScrollTop';
 
 const HomeMain = () => {
@@ -24,7 +19,6 @@ const HomeMain = () => {
           />
         </div>
       </div>
-
     </>
   );
 }

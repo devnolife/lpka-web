@@ -16,6 +16,8 @@ const MenuItems = (props) => {
   const [blog, setBlog] = useState(false)
   const [layanan, setLayanan] = useState(false) // New state for Layanan menu
   const [prestasi, setPrestasi] = useState(false) // New state for Prestasi menu
+  const [devisi, setDevisi] = useState(false); // New state for Devisi menu
+  const [informasi, setInformasi] = useState(false); // New state for Informasi menu
 
   const openMobileMenu = menu => {
 
@@ -27,6 +29,8 @@ const MenuItems = (props) => {
       setBlog(false)
       setLayanan(false)
       setPrestasi(false)
+      setDevisi(false)
+      setInformasi(false)
     }
     else if (menu === 'page') {
       setHome(false)
@@ -36,6 +40,8 @@ const MenuItems = (props) => {
       setBlog(false)
       setLayanan(false)
       setPrestasi(false)
+      setDevisi(false)
+      setInformasi(false)
     }
     else if (menu === 'event') {
       setHome(false)
@@ -45,6 +51,8 @@ const MenuItems = (props) => {
       setBlog(false)
       setLayanan(false)
       setPrestasi(false)
+      setDevisi(false)
+      setInformasi(false)
     }
     else if (menu === 'course') {
       setHome(false)
@@ -54,6 +62,8 @@ const MenuItems = (props) => {
       setBlog(false)
       setLayanan(false)
       setPrestasi(false)
+      setDevisi(false)
+      setInformasi(false)
     }
     else if (menu === 'berita') {
       setHome(false)
@@ -63,6 +73,8 @@ const MenuItems = (props) => {
       setBlog(!blog)
       setLayanan(false)
       setPrestasi(false)
+      setDevisi(false)
+      setInformasi(false)
     }
     else if (menu === 'prestasi') { // New condition for Prestasi menu
       setHome(false)
@@ -72,6 +84,30 @@ const MenuItems = (props) => {
       setBlog(false)
       setLayanan(false)
       setPrestasi(!prestasi)
+      setDevisi(false)
+      setInformasi(false)
+    }
+    else if (menu === 'devisi') { // New condition for Devisi menu
+      setHome(false)
+      setPage(false)
+      setEvent(false)
+      setCourse(false)
+      setBlog(false)
+      setLayanan(false)
+      setPrestasi(false)
+      setDevisi(!devisi)
+      setInformasi(false)
+    }
+    else if (menu === 'informasi') { // New condition for Informasi menu
+      setHome(false)
+      setPage(false)
+      setEvent(false)
+      setCourse(false)
+      setBlog(false)
+      setLayanan(false)
+      setPrestasi(false)
+      setDevisi(false)
+      setInformasi(!informasi)
     }
   };
 
@@ -92,21 +128,45 @@ const MenuItems = (props) => {
         </ul>
       </li>
 
-      <li className={parentMenu === 'pengumuman' ? 'has-sub menu-active' : 'has-sub'}>
-        <Link to="#" className={course ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('course'); }}>
-          Pengumuman
+      <li className={parentMenu === 'devisi' ? 'has-sub menu-active' : 'has-sub'}>
+        <Link to="#" className={devisi ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('devisi'); }}>
+          Layanan
+          <span className="arrow "></span>
         </Link>
+        <ul className={devisi ? "sub-menu sub-menu-open" : "sub-menu"}>
+          <li className={location.pathname === '/devisi/1' ? 'menu-active' : ''}>
+            <Link to="/devisi/1">Prestasi Kreativitas Mahasiswa</Link>
+          </li>
+          <li className={location.pathname === "/devisi/2" ? "menu-active" : ""}>
+            <Link to="/devisi/2">Kewirausahaan & Kesejahteraan Mahasiswa</Link>
+          </li>
+          <li className={location.pathname === "/devisi/3" ? "menu-active" : ""}>
+            <Link to="/devisi/3">Bakat Minat & Kelembangaan Mahasiswa</Link>
+          </li>
+          <li className={location.pathname === "/devisi/4" ? "menu-active" : ""}>
+            <Link to="/devisi/4">Karir Mahasiswa & Alumni</Link>
+          </li>
+        </ul>
+      </li>
+      <li className={parentMenu === 'informasi' ? 'has-sub menu-active' : 'has-sub'}>
+        <Link to="#" className={informasi ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('informasi'); }}>
+          Informasi
+          <span className="arrow "></span>
+        </Link>
+        <ul className={informasi ? "sub-menu sub-menu-open" : "sub-menu"}>
+          <li className={location.pathname === '/informasi/beasiswa' ? 'menu-active' : ''}>
+            <Link to="/informasi/beasiswa">Beasiswa</Link>
+          </li>
+          <li className={location.pathname === "/informasi/pengumuman" ? "menu-active" : ""}>
+            <Link to="/informasi/pengumuman">Pengumuman</Link>
+          </li>
+        </ul>
       </li>
 
       <li className={location.pathname === '/berita' ? 'menu-active' : ''}>
         <Link to="/berita">Berita</Link>
       </li>
-      <li className={parentMenu === 'prestasi' ? 'has-sub menu-active' : 'has-sub'}>
-        <Link to="#" className={prestasi ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('prestasi'); }}>
-          Prestasi
-          <span className="arrow "></span>
-        </Link>
-      </li>
+
       <li className={location.pathname === '/komplen' ? 'menu-active' : ''}>
         <Link to="/komplen">Komplen & Saran</Link>
       </li>

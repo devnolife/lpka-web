@@ -7,7 +7,7 @@ import Breadcrumb from '../../components/Breadcrumb/BlogBreadcrumbs';
 import ScrollToTop from '../../components/ScrollTop';
 import posts from '../../data/Posts.json';
 
-import Logo from '../../assets/images/logos/logo2.png';
+import Logo from '../../assets/images/logos/logo-lpka.png';
 
 const BeritaDetail = () => {
 
@@ -38,7 +38,6 @@ const BeritaDetail = () => {
             postTotalView={post.totalView}
           />
 
-          {/* Blog Main */}
           <BlogDetailsMain
             postTitle={post.title}
             postImg={post.image}
@@ -48,16 +47,10 @@ const BeritaDetail = () => {
             postPublishedDate={post.publishedDate}
             postTotalView={post.totalView}
           />
-          {/* Blog Main End */}
-
-          {/* scrolltop-start */}
           <ScrollToTop />
-          {/* scrolltop-end */}
         </div>
       </div>
-
       <Footer />
-
     </body>
   );
 }
