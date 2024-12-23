@@ -6,37 +6,52 @@ const instructors = [
   {
     "id": 1,
     "image": "1.png",
-    "name": "Wahyuddin, S.Pd.,M.Ed",
-    "designation": "Kordinator Pengembangan Prestasi & Kreativitas Mahasiswa",
+    "name": "Wahyuddin, S.Pd., M.Ed",
+    "designation": "Ketua Divisi Pengembangan Prestasi & Kreativitas Mahasiswa",
     "bio": "LPKA didedikasikan untuk mendorong pencapaian dan kreativitas mahasiswa.",
+    "schoolar": "",
+    "facebook": "",
+    "instagram": "",
   },
   {
     "id": 2,
     "image": "2.png",
-    "name": "Hamzah, S.P.,M.P",
-    "designation": "Kordinator Keewirausahaan Karir & Beasiswa",
+    "name": "Dr. Hamzah, S.P., M.P",
+    "designation": "Ketua Divisi Keewirausahaan Karir & Beasiswa",
     "bio": "LPKA mendukung kewirausahaan, pengembangan karir, dan beasiswa.",
+    "schoolar": "",
+    "facebook": "hamzahesaflowers",
+    "instagram": "hamzahesaflowers",
   },
   {
     "id": 3,
     "image": "3.png",
-    "name": "Dr.Ir. Nenny, ST.,MT.,IPM",
+    "name": "Dr. Ir. Nenny, ST.,MT., IPM",
     "designation": "Ketua LPKA",
     "bio": "LPKA bertujuan mengembangkan mahasiswa menjadi individu yang berpengetahuan dan percaya diri.",
+    "schoolar": "",
+    "facebook": "",
+    "instagram": "",
   },
   {
     "id": 4,
     "image": "4.png",
-    "name": "Dr.Dian Pramana Putra S.Pd.,M.Pd",
+    "name": "Dr. Dian Pramana Putra, S.Pd., M.Pd",
     "designation": "Sekretaris LPKA",
     "bio": "LPKA berkomitmen mendukung kegiatan mahasiswa dan pengembangan kelembagaan.",
+    "schoolar": "",
+    "facebook": "",
+    "instagram": "",
   },
   {
     "id": 5,
     "image": "5.png",
-    "name": "Dr.Syahban Nur S.Pd.,M.Pd",
-    "designation": "Kordinator Bakat Minat & Kelembagaan Mahasiswa",
+    "name": "Dr. Syahban Nur, S.Pd., M.Pd",
+    "designation": "Ketua Divisi Pengembangan Minat Bakat & Kelembagaan Mahasiswa",
     "bio": "LPKA mengembangkan bakat dan keterampilan organisasi mahasiswa.",
+    "schoolar": "",
+    "facebook": "@syahbannur7",
+    "instagram": "@syahbannur7",
   }
 ]
 
@@ -57,9 +72,9 @@ const InstructorMain = () => {
                       <div className="content__hover">
                         <p>{data.bio}</p>
                         <ul>
-                          <li><a href="#"><span aria-hidden="true" className="social_facebook"></span></a></li>
-                          <li><a href="#"><span aria-hidden="true" className="social_twitter"></span></a></li>
-                          <li><a href="#"><span aria-hidden="true" className="social_linkedin"></span></a></li>
+                          <li><a href={data.schoolar}><i className="fa fa-graduation-cap"></i></a></li>
+                          <li><a href={data.facebook}><i className="fa fa-facebook"></i></a></li>
+                          <li><a href={data.instagram}><i className="fa fa-instagram"></i></a></li>
                         </ul>
                       </div>
                     </div>
