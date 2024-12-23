@@ -30,12 +30,9 @@ const instructors =
     },
     {
       "id": 13,
-      "image": "13.jpg",
-      "name": "Alan Fresco",
-      "designation": "Teacher",
-      "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-      "phone": "+(088) 223 478 365",
-      "email": "alan@echooling.com"
+      "image": "13.png",
+      "name": "Nurul Mifhtul Qalbi, S. Arch",
+      "designation": "Staff",
     },
   ]
 

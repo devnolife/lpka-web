@@ -29,13 +29,11 @@ const ContactForm = (props) => {
                 <input id="name" type="text" name="user_name" required placeholder="Nama" />
               </div>
             </div>
-
             <div className="col-lg-6 pdl-5">
               <div className="back-input">
-                <input id="email" type="email" name="user_email" required placeholder="Email" />
+                <input id="message" type="text" name="nim" required placeholder="Nim" />
               </div>
             </div>
-
             <div className="col-lg-6">
               <div className="back-input">
                 <input id="subject" type="text" name="user_subject" required placeholder="Subjek" />
@@ -44,12 +42,17 @@ const ContactForm = (props) => {
 
             <div className="col-lg-6 pdl-5">
               <div className="back-input">
-                <input id="phone" type="text" name="user_phone" required placeholder="Telepon" />
+                <input id="message" type="text" name="nim" required placeholder="Nim" />
               </div>
             </div>
             <div className="col-lg-12">
               <div className="back-textarea">
                 <textarea id="message" name="user_message" required placeholder="Pesan"></textarea>
+              </div>
+            </div>
+            <div className="col-lg-6 pdl-5">
+              <div className="back-input">
+                <input id="email" type="email" name="user_email" required placeholder="Email" />
               </div>
             </div>
             <div className="col-lg-12">

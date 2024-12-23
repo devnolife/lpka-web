@@ -15,7 +15,7 @@ const ContactInfo = (props) => {
       </li>
       <li>
         <em className="icon"><img src={infoImg2} alt="image" /></em>
-        <span className="text"><em>Kontak</em> <a href="#">Telepon: (+88) - 1990 - 6886</a> <a href="#">Email: lpka@unismuh.ac.id</a></span>
+        <span className="text"><em>Kontak</em> <a href="#">Telepon: (+88) - 1990 - 6886</a> <a href="#">Email: kemahasiswaan@unismuh.ac.id </a></span>
       </li>
       <li>
         <em className="icon"><img src={infoImg3} alt="image" /></em>

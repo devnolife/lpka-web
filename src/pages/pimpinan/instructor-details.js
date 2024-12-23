@@ -9,33 +9,33 @@ import Logo from '../../assets/images/logos/logo2.png';
 
 const InstructorDetails = () => {
 
-    return (
-        <body className="profile-page">
-            <Header
-                parentMenu='page'
-                menuCategoryEnable='enable'
-                headerNormalLogo={Logo}
-                headerStickyLogo={Logo}
-            />
+  return (
+    <body className="profile-page">
+      <Header
+        parentMenu='page'
+        menuCategoryEnable='enable'
+        headerNormalLogo={Logo}
+        headerStickyLogo={Logo}
+      />
 
-            <div class="react-wrapper">
-                <div class="react-wrapper-inner">
-                    <Breadcrumb
-                        pageTitle="Profile"
-                    />
+      <div class="react-wrapper">
+        <div class="react-wrapper-inner">
+          <Breadcrumb
+            pageTitle="Profile"
+          />
 
-                    <InstructorDetailsMain />
+          <InstructorDetailsMain />
 
-                    {/* scrolltop-start */}
-                    <ScrollToTop />
-                    {/* scrolltop-end */}
-                </div>
-            </div>
+          {/* scrolltop-start */}
+          <ScrollToTop />
+          {/* scrolltop-end */}
+        </div>
+      </div>
 
-            <Footer />
+      <Footer />
 
-        </body>
-    );
+    </body>
+  );
 }
 
 
