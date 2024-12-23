@@ -19,7 +19,7 @@ const About = () => {
           <div className="col-lg-6">
             <div className="about__content">
               <h2 className="about__title wow animate__fadeInUp" data-wow-duration="0.3s">Selamat Datang di <br /> <em>Platform LPKA</em></h2>
-              <p className="about__paragraph wow animate__fadeInUp" data-wow-duration="0.5s">Lembaga Pengembangan Kemahasiswaan dan Alumni (LPKA) Universitas Muhammadiyah Makassar adalah unit pendukung yang dibentuk untuk mengembangkan kegiatan mahasiswa yang mampu mendukung terwujudnya cendekiawan muslim yang berakhlak mulia, mampu, percaya diri, mampu mengembangkan ilmu pengetahuan dan teknologi serta bermanfaat bagi umat, bangsa, dan kemanusiaan.</p>
+              <p className="about__paragraph wow animate__fadeInUp" data-wow-duration="0.5s">Lembaga Pengembangan Kemahasiswaan dan Alumni (LPKA) Universitas Muhammadiyah Makassar adalah unit pendukung yang dibentuk untuk mengembangkan kegiatan mahasiswa yang mampu mendukung terwujudnya cendekiawan muslim yang berakhlak mulia, berkompeten, percaya diri, serta mampu mengembangkan ilmu pengetahuan dan teknologi yang bermanfaat bagi umat, bangsa, dan kemanusiaan.</p>
               <p className="about__paragraph2 wow animate__fadeInUp" data-wow-duration="0.7s"> Punya pertanyaan?  <Link to="#"> Dapatkan Panduan Gratis </Link></p>
               <p className="wow animate__fadeInUp" data-wow-duration="0.6s">LPKA diharapkan tidak hanya menjalankan fungsi pelayanan, tetapi juga pengembangan program.</p>
               <ul className="wow animate__fadeInUp" data-wow-duration="0.9s">

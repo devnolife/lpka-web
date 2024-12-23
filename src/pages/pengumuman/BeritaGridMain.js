@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import SingleCourseThree from '../../components/Course/SingleCourseThree';
 import courses from '../../data/Courses.json';
 
-const BeritaGridMain = () => {
+const PengumumanGridMain = () => {
 
   return (
     <div className="react-course-filter back__course__page_grid pb---40 pt---110">
@@ -42,4 +42,4 @@ const BeritaGridMain = () => {
   );
 }
 
-export default BeritaGridMain;
+export default PengumumanGridMain;

@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import BeritaGridMain from './BeritaGridMain';
+import PengumumanGridMain from './BeritaGridMain';
 import ScrollToTop from '../../components/ScrollTop';
 
-const Berita = () => {
+const Pengumuman = () => {
   return (
     <body class="courses-grid-page">
       <Header
@@ -13,7 +13,7 @@ const Berita = () => {
       />
       <div class="react-wrapper">
         <div class="react-wrapper-inner">
-          <BeritaGridMain />
+          <PengumumanGridMain />
           <ScrollToTop />
         </div>
       </div>
@@ -25,5 +25,5 @@ const Berita = () => {
 }
 
 
-export default Berita;
+export default Pengumuman;
 
