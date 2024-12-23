@@ -3,10 +3,16 @@
     "id": 1,
     "title": "Devisi Prestasi & Kreativitas Mahasiswa",
     "image": "devisi1.jpg",
-    "bannerImg": "kemahasiswaan.png",
+    "bannerImg": "awards.png",
     "category": "Layanan",
     "author": "Author 1",
-    "konteks": "This is the context for Devisi 1."
+    "konteks": [
+      "Merencanakan dan melaksanakan program pengembangan; kreativitas dan penalaran mahasiswa; peningkatan prestasi mahasiswa; pendampingan kegiatan kompetisi",
+      "Mengkordinasi pelaksanaan kegiatan kompetisi regional, wilayah, nasional dan internasional yang akan diikuti oleh mahasiswa",
+      "Menyiapkan kegiatan pembinaan terhadap kompetisi rutin yang diselenggarakan oleh Kemendikbud dan Puspresma PTMA",
+      "Menyiapkan data dan informasi berkaitan dengan capaian prestasi mahasiswa",
+      "Menyiapkan panduan reward prestasi dan apresiasi capaian mahasiswa"
+    ]
   },
   {
     "id": 2,
@@ -15,7 +21,9 @@
     "bannerImg": "post-banner1.jpg",
     "category": "Layanan",
     "author": "Author 2",
-    "konteks": "This is the context for Devisi 2."
+    "konteks": [
+      "This is the context for Devisi 2."
+    ]
   },
   {
     "id": 3,
@@ -24,15 +32,31 @@
     "bannerImg": "post-banner1.jpg",
     "category": "Layanan",
     "author": "Author 3",
-    "konteks": "This is the context for Devisi 3."
+    "konteks": [
+      "Melaksanakan pembinaan bakat minat dan kelembagaan seluruh organisasi kemahasiswaan.",
+      "Mengoordinasi kegiatan mahasiswa dalam proses perencanaan program kerja pada lembaga kemahasiswaan.",
+      "Melakukan pendampingan terhadap pelaksanaan program kerja lembaga kemahasiswaan.",
+      "Melaksanakan evaluasi periodisasi kepengurusan organisasi dan lembaga mahasiswa.",
+      "Merancang kegiatan pelatihan soft skills sebagai bentuk peningkatan kompetensi pendukung atau tambahan bagi mahasiswa dan pengurus lembaga kemahasiswaan.",
+      "Melakukan pendampingan terhadap pengembangan kegiatan bakat dan minat bagi mahasiswa.",
+      "Menyiapkan panduan rekognisi terkait kegiatan bidang bakat dan minat yang diikuti mahasiswa."
+    ]
   },
-   {
+  {
     "id": 4,
     "title": "Devisi Karir Mahasiswa & Alumni",
     "image": "post-banner1.jpg",
     "bannerImg": "karir.jpg",
     "category": "Layanan",
     "author": "Author 3",
-    "konteks": "This is the context for Devisi 3."
+    "konteks": [
+      "Mengomunikasikan data lulusan kepada perusahaan, menyebarkan informasi lowongan pekerjaan kepada lulusan melalui berbagai media komunikasi, serta bekerja sama dengan perusahaan untuk melakukan rekrutmen di kampus dan pelatihan bagi mahasiswa dan lulusan.",
+      "Memberikan informasi seputar lowongan pekerjaan kepada alumni melalui media website dan media sosial LPKA.",
+      "Menjalin kemitraan dengan berbagai perusahaan dalam bentuk kerja sama, seperti rekrutmen, magang, beasiswa, maupun pelatihan.",
+      "Melakukan pendampingan kepada mahasiswa berwirausaha melalui kegiatan seperti workshop penulisan proposal bisnis, kompetisi proposal bisnis, hingga pencairan pendanaan.",
+      "Memberikan pendampingan kepada mahasiswa yang mengikuti kompetisi di bidang kewirausahaan, baik yang diselenggarakan oleh kementerian, universitas, maupun lembaga lainnya.",
+      "Memberikan informasi dan prosedur terkait layanan beasiswa bagi mahasiswa.",
+      "Menyediakan sistem basis data beasiswa yang bersifat open access."
+    ]
   }
 ]

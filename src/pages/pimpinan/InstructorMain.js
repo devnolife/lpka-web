@@ -10,8 +10,8 @@ const instructors = [
     "designation": "Ketua Divisi Pengembangan Prestasi & Kreativitas Mahasiswa",
     "bio": "LPKA didedikasikan untuk mendorong pencapaian dan kreativitas mahasiswa.",
     "schoolar": "https://scholar.google.com/citations?user=cz7WTCcAAAAJ&hl=id",
-    "facebook": "Wahyuddin",
-    "instagram": "Wahyuddin_09",
+    "facebook": "https://www.facebook.com/Wahyuddin",
+    "instagram": "https://www.instagram.com/Wahyuddin_09",
   },
   {
     "id": 2,
@@ -20,8 +20,8 @@ const instructors = [
     "designation": "Ketua Divisi Keewirausahaan Karir & Beasiswa",
     "bio": "LPKA mendukung kewirausahaan, pengembangan karir, dan beasiswa.",
     "schoolar": "",
-    "facebook": "hamza esa flowers",
-    "instagram": "esa_flowers",
+    "facebook": "https://www.facebook.com/hamza.esa.flowers",
+    "instagram": "https://www.instagram.com/esa_flowers",
   },
   {
     "id": 3,
@@ -40,7 +40,7 @@ const instructors = [
     "designation": "Sekretaris LPKA",
     "bio": "LPKA berkomitmen mendukung kegiatan mahasiswa dan pengembangan kelembagaan.",
     "schoolar": "https://scholar.google.com/citations?hl=id&user=RgXZ5ZgAAAAJ",
-    "facebook": "dian pramana putra",
+    "facebook": "https://www.facebook.com/dian.pramana.putra",
     "instagram": "https://www.instagram.com/dianpramanaputra06/",
   },
   {
@@ -50,8 +50,8 @@ const instructors = [
     "designation": "Ketua Divisi Pengembangan Minat Bakat & Kelembagaan Mahasiswa",
     "bio": "LPKA mengembangkan bakat dan keterampilan organisasi mahasiswa.",
     "schoolar": "https://scholar.google.com/citations?user=uEHQ-CkAAAAJ&hl=en",
-    "facebook": "SyahNur Sosiologi",
-    "instagram": "@syahbannur7",
+    "facebook": "https://www.facebook.com/SyahNur.Sosiologi",
+    "instagram": "https://www.instagram.com/syahbannur7",
   }
 ]
 
@@ -72,9 +72,9 @@ const InstructorMain = () => {
                       <div className="content__hover">
                         <p>{data.bio}</p>
                         <ul>
-                          <li><a href={data.schoolar}><i className="fa fa-graduation-cap"></i></a></li>
-                          <li><a href={data.facebook}><i className="fa fa-facebook"></i></a></li>
-                          <li><a href={data.instagram}><i className="fa fa-instagram"></i></a></li>
+                          <li><a href={data.schoolar}><span aria-hidden="true" className="social_googleplus"></span></a></li>
+                          <li><a href={data.facebook}><span aria-hidden="true" className="social_facebook"></span></a></li>
+                          <li><a href={data.instagram}><span aria-hidden="true" className="social_instagram"></span></a></li>
                         </ul>
                       </div>
                     </div>
