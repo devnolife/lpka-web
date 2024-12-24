@@ -154,9 +154,9 @@ const MenuItems = (props) => {
           <span className="arrow "></span>
         </Link>
         <ul className={informasi ? "sub-menu sub-menu-open" : "sub-menu"}>
-          <li className={location.pathname === '/beasiswa' ? 'menu-active' : ''}>
+          {/* <li className={location.pathname === '/beasiswa' ? 'menu-active' : ''}>
             <Link to="/beasiswa">Beasiswa</Link>
-          </li>
+          </li> */}
           <li className={location.pathname === "/pengumuman" ? "menu-active" : ""}>
             <Link to="/pengumuman">Pengumuman</Link>
           </li>
